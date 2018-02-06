@@ -1,0 +1,392 @@
+*{
+	/*box-sizing: border-box;*/
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: Montserrat, sans-serif;
+	/*width: 100%;*/
+	/*margin:auto;*/
+}
+
+.img-video img{
+	width: 100%;
+}
+
+h4 {
+	font-size:64px;
+	font-family: Montserrat-BlackItalic, sans-serif;
+	margin: 0px;
+
+}
+
+a{
+	text-decoration:none;
+	color: inherit;
+
+}
+
+ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+nav ul {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	padding-left: 385px;
+}
+
+nav ul li{
+	width:10%;
+	height:80px;
+	float:left;
+}
+
+nav ul li a {
+	font-size:14px; 
+	color:white;
+	text-decoration:none;
+	text-align:center;
+	display:block;
+	height:57px;
+	line-height:80px;
+	text-align: center;
+	margin-top: 5px;
+	font-family: Montserrat-semiBold, sans-serif;
+}
+
+.box{
+	background-color: #000;
+	width:auto;
+	height: 110px;
+}
+
+#logo{
+	float: left;
+	margin: 20px  0 20px 140px;
+
+}
+
+
+#iconshead{
+    float: left;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+
+#idiomas{
+	font-family: Montserrat-semiBold, sans-serif;
+	color:#fff; 
+	float: left;
+	margin-left: 100px;
+
+}
+
+#idiomas ul{
+	padding-left: 0;
+}
+
+#idiomas li{
+	padding: 10px;
+}
+.active{
+	border-bottom: solid 3px #12F8CD;
+}
+
+.quotationmarks{
+	position: relative;
+    top: 36px;
+    left: 363px;
+    z-index:-3px;
+}
+
+.quote p{
+	font-family: Montserrat-lightitalic, sans-serif;
+	font-size:36px; 
+	color:#9B9B9B;
+	position: relative;
+    top: -276px;
+    left: 69px; 
+
+}
+
+ span .boldtext{
+ 	font-family: Montserrat-MediumItalic, sans-serif;
+ }
+
+#flechanuevo{
+	margin-left: 37px;
+    margin-top: -312px;
+}
+
+.nuestrosboton{
+	font-family: Montserrat-BlackItalic, sans-serif;
+	background-color:#12F8CD; 
+	color:#000;
+	padding: 24px 60px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 64px; 
+	margin-top: -19px;
+	margin-left: 165px;
+	position: absolute;
+	
+}
+
+.nuestrosboton:hover{
+	background-color:#000;
+	color:#fff; 
+}
+
+
+#fotonuevo{
+	margin-top: 57px;
+}
+
+#fotopromo{
+	float: right;
+	margin-top: -487px;
+}
+
+@media screen and (max-width: 800px){
+	.fotonuevo,
+	.fotopromo{
+		width: 60%;
+		float:none;
+	}
+}
+
+.nuestrosboton2{
+	font-family: Montserrat-BlackItalic, sans-serif;
+	background-color:#12F8CD; 
+	color:#000;
+	padding: 24px 60px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 64px; 
+	margin-top:-79px;
+	margin-left: 897px;
+	position: absolute;
+	
+}
+
+#flechapromo{
+	float:right;
+	margin-top: 35px;
+    margin-right: 301px;
+
+}
+
+.nuestrosboton2:hover{
+	background-color:#000;
+	color:#fff; 
+}
+
+#triangulo{
+	float: right;
+	margin-right:-430px;
+	margin-top: 159px; 
+}
+
+#circulo{
+	margin: 54px 128px;
+
+}
+
+#gifcolecciones{
+	margin:-734px 17px;
+}
+
+#camisetacolecciones{
+	margin:-734px 83px;
+}
+
+.colecciones{
+	padding: 11px 38px;
+    box-sizing: border-box;
+    margin-top: 270px;
+    margin-left:864px ;
+    text-align: center;
+    width: 360px;
+    height: 280px;
+    border: 10px solid black;
+    position: absolute;
+	text-align: left;
+}
+
+.colecciones p{
+	font-family: Montserrat-Medium, sans-serif;
+ 	margin:0px;
+	font-size: 36px;
+}	
+
+#flechacolecciones{
+	float:right;
+	margin-top: 515px;
+    margin-right: -189px; 
+}
+
+button{
+	width: 160px;
+	height: 60px;
+	font-family: Montserrat-Black, sans-serif;
+	background-color:#12F8CD; 
+	color:#000;
+	border: none;
+	float: right;
+	margin-top: 575px;
+    margin-right: -15px;
+}
+
+button:hover{
+	background-color:#000;
+	color:#fff; 
+}
+
+#fotoartista{
+	float: right;
+	margin-top: 215px;
+	margin-right:74px; 
+
+}
+
+#manos{
+	float: right;
+    margin-top: -661px;
+}
+
+.garabatos2{
+	margin-top: 899px;
+    margin-left: 42px;
+}
+
+.artistadel{
+	padding: 33px;
+    box-sizing: border-box;
+    margin-top: -194px;
+    margin-left: 485px;
+    text-align: center;
+    width: 300px;
+    height: 220px;
+    border: 10px solid black;
+    position: absolute;
+    text-align: left;
+}
+
+.artistadel p{
+ 	margin:0px;
+	font-size: 36px;
+
+
+}
+.mes{
+	font-family: Montserrat-BlackItalic, sans-serif;
+	font-size: 64px;
+	margin-top: -20px;
+	margin-left:-61px;
+
+}
+
+#clau{
+ 	font-family: Montserrat-Bold, sans-serif;
+	font-size: 24px;
+	margin-top: 48px;
+	margin-left: -285px
+}
+
+#textomes{
+	font-family: Montserrat-Regular, sans-serif;
+	font-size: 14px;
+	margin-left: -284px;
+    margin-top: 20px;
+    padding-right: 176px;
+}
+
+#flechaartista{
+	margin-top: 10px;
+    margin-left: -97px;
+}
+
+#buttonartista{
+	margin-top: -52px;
+    margin-right: 341px;
+}
+
+img{
+	margin-top: -4px;
+}
+
+.eresartista p{
+	margin-top:-1433px;
+	text-align: center;
+	font-family: Montserrat-ExtraBold, sans-serif;
+	font-size: 36px;
+
+
+}
+
+#flechacreatuperfil{
+	margin-left: 554px;
+	margin-top: 20px;
+}
+
+
+.creatuperfil {
+	width: 400px;
+	height:100px;
+	font-family: Montserrat-ExtraBold, sans-serif;
+	font-size: 36px;
+	background-color:#12F8CD; 
+	color:#000;
+	border: none;
+	float: right;
+	padding: 40px;
+	margin-top: -132px;
+    margin-right: 506px;
+    z-index: 1;
+}
+
+.creatuperfil:hover{
+	background-color:#000;
+	color:#fff; 
+}
+
+#extras{
+	margin-top: -221px;
+    float: right;
+    margin-right: 590px;;
+    z-index: -4;
+    left: 0px;
+    top: 0px;
+}
+
+.uneteanosotros{
+	font-family: Montserrat-MediumItalic, sans-serif;
+	font-size: 48px;
+	color:#9B9B9B;
+	float:right;
+	margin-right: -529px;
+    margin-top: 175px; 
+}
+
+.uneteanosotros2{
+	font-family: Montserrat-LightItalic, sans-serif;
+	font-size: 36px;
+	color:#9B9B9B;
+	float:right;
+	margin-right: -529px;
+    margin-top: 241px; 
+}
+#footer{
+	margin-top:100%;
+	bottom: 0;
+}
+
+
