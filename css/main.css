@@ -419,6 +419,7 @@ nav .logor{
 
 #circulo, #triangulo, #camisetacolecciones{
 	width: 100%;
+	margin-left: -100px;
 }
 
 
@@ -435,14 +436,14 @@ nav{
 .colecciones{
 	padding: 11px 38px;
     box-sizing: border-box;
-    margin-top: 170px;
-    margin-left:764px ;
     text-align: center;
     width: 360px;
     height: 280px;
     border: 10px solid black;
     position: absolute;
 	text-align: left;
+    margin-top:0px;
+    margin-left:600px;
 }
 
 .colecciones p{
@@ -452,8 +453,8 @@ nav{
 }
 #flechacolecciones{
 	float:left;
-	margin-top: 400px;
-    margin-left: 950px; 
+	margin-top: 250px;
+    margin-left: 800px; 
 }
 .ver-mas button{
 	width: 160px;
@@ -463,12 +464,12 @@ nav{
 	color:#000;
 	border: none;
 	float: left;
-	margin-top: 1px;
-    margin-left:800px;
+	margin-top: -80px;
+    margin-left:600px;
 }
 .artistadel{
 	margin-top: -600px;
-    margin-left: 100px;
+    margin-left: 40px;
     display: block;
     width: 40%;
     position: absolute;
@@ -479,9 +480,9 @@ nav{
 }
 
 #fotoartista{
-	float: none;
+	float: left;
 	margin-top: 215px;
-	margin-right:74px; 
+	margin-left:-200px; 
 
 }
 
