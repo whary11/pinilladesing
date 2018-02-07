@@ -110,6 +110,7 @@ nav ul li a {
 
 .fotoclau{
 	float: right;
+	margin-top: -40px;
 	margin-left: -90px; 
 }
 	
@@ -141,24 +142,27 @@ nav ul li a {
 	font-family: Montserrat-BlackItalic, sans-serif;
 	font-size: 36px;
 	margin-left: 120px;
-	margin-top:30px;
+	margin-top:80px;
 	display: block;
     padding-right: 50pc;
-    line-height: 0.8;
+    line-height: 1;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 
 #churumbelo{
 	margin-left: 120px;
-    margin-top: -220px;
+    margin-top: -180px;
 
 }
 
 #pais{
 	font-family: Montserrat-Bold, sans-serif;
 	font-size: 14px;
-	text-decoration: underline;
-	margin-top: -56px;
+	text-decoration: none;
+	margin-top: -58px;
     margin-left: 120px;
+    font-weight: bold;
 }
 
 #profecion{
@@ -174,11 +178,12 @@ button{
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 14px;
+	font-size: 24px;
 	font-family: Montserrat-Black, sans-serif; 
-	margin-top: 5px;
+	margin-top: 2px;
 	margin-left: 120px;
-	cursor: pointer;
+	font-weight: bold;
+	border: none;
 }
 
 button:hover{
@@ -264,7 +269,6 @@ span {
 }
 
 #quote p{
-	margin-top: 100px;
 	font-family: Montserrat-lightItalic, sans-serif; 
 	color: #9B9B9B;
 	font-size: 48px;
@@ -272,6 +276,7 @@ span {
 	display: block; 
 	float:right; 
     margin-top: -931px;
+    margin-left:-100px ;
     padding-left: 994px;
     line-height: 1;
     z-index: 1;
@@ -364,17 +369,17 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)  {
 
 	.box{
-		/*background: red;*/
 		width: 40%;
 		height: 100%;
 		position: fixed;
 		top: 0;
+		margin-left: -500px;
 	}
 	.box ul{
 		float: none;
-		margin-left: -250px;
-
+		margin-left: -200px;
 	}
+
 	nav ul li a {
 		font-size:18px; 
 		height:57px;
@@ -382,6 +387,11 @@ and (max-device-width : 1024px)  {
 	}
 	.box ul li{
 		padding: 0px;
+	}
+
+	/*body*/
+	#breadcrumbs{
+		display: none;
 	}
 	
 }
