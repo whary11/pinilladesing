@@ -4,7 +4,6 @@
 }
 .togglemenu img{
 	position: fixed;
-	/*display: block;*/
 	width: 90px;
 	height: 90px;
 
@@ -39,13 +38,12 @@ nav ul li{
 nav ul li a{
 	text-decoration: none;
 	color: white;
+	font-family: Montserrat-semiBold, sans-serif;
 }
 
 .menu2 img{
 	display: none;
 }
-
-/*holy-shirt*/
 .holy-shirt img{
 	width: 100%;
 }
