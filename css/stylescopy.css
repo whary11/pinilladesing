@@ -1,0 +1,505 @@
+*{box-sizing: border-box;
+}
+
+
+img{
+	max-width: 100%
+
+}
+
+
+body{
+	font-family: Montserrat, sans-serif;
+	margin:auto;
+	width: 100%; 
+
+	background-image: url(../img/fotoclau.png);
+	background-repeat: no-repeat;
+	background-position: 670px 227px
+}
+
+h4 {
+	font-size:64px;
+	font-family: Montserrat-BlackItalic, sans-serif;
+	margin: 0px;
+
+}
+
+a{
+	text-decoration:none;
+	color: inherit;
+
+}
+
+ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+nav ul {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	padding-left: 385px;
+
+
+
+}
+
+nav ul li{
+	
+	height: 80px;
+	float: left; 
+
+
+}
+
+nav ul li a {
+	font-size:14px; 
+	color:white;
+	text-decoration:none;
+	text-align:center;
+	display:block;
+	height:57px;
+	line-height:80px;
+	text-align: center;
+	margin: 5px 20px;
+	font-family: Montserrat-semiBold, sans-serif;
+
+}
+
+/*media queris menu hamburgesa 
+
+@media only screen and (max-width: 480px){
+	.hamburger{
+		cursor: pointer;
+		padding: 15px;
+		display: block;
+	}
+
+	.line {
+		border-bottom: 4px solid #bbb;
+		width: 35px;
+		margin-bottom: 6px;
+	}	
+
+
+/*styles
+
+	nav ul li a {
+		width:100% 
+	}
+	
+	.menu{
+		display: none;
+	}
+}*/
+
+
+.box{
+	background-color: #000;
+	width: 1440px;
+	height: 110px;
+	display: block;
+}
+
+#logo{
+	float: left;
+	margin: 20px  0 20px 140px;
+	background-image: url(img/Logo RANDOM.png);
+
+
+}
+
+
+#iconshead{
+    float: left;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+
+#idiomas{
+	font-family: Montserrat-semiBold, sans-serif;
+	color:#fff; 
+	float: left;
+	margin-left: 100px;
+
+}
+
+#idiomas ul{
+	padding-left: 0;
+}
+
+#idiomas li{
+	
+}
+
+/* intento hamburgesa
+@media screen and (max-width: 400px){
+	
+	.box{
+		position:relative;width:100%; }
+
+	#logo{
+		margin-top: 80px; width: 100%; float: none;}
+	
+	#iconshead{
+		height: 80px; width: 100%; float: none;}
+
+	#idiomas{
+		height: 80px; width: 100%; float: none;}
+
+} */
+
+.hamburger{
+	display: hidden;
+	width: 33px;
+	height:3.67px;
+	background-image: url(img/burger.png) center;
+}
+
+.active{
+	border-bottom: solid 3px #12F8CD;
+}
+
+.fotoclau{
+	float: right; 
+}
+	
+
+#breadcrumbs p{
+	font-family: Montserrat-Medium, sans-serif;
+	font-size: 9px;
+	margin-left: 120px;
+	margin-top: 40px;
+	display:block;
+}
+
+#breadcrumbs p a{
+	text-decoration: underline;
+	
+}
+
+
+
+#nombrepagina{
+	font-family: Montserrat-ExtraBoldItalic, sans-serif;
+	font-size: 36px;
+	margin-left: 120px;
+	margin-top: 40px;
+
+}
+
+.claudiamarti{
+	font-family: Montserrat-BlackItalic, sans-serif;
+	font-size: 64px;
+	margin-left: 120px;
+	margin-top:30px;
+	display: block;
+    padding-right: 50pc;
+    line-height: 0.8;
+}
+
+#churumbelo{
+	margin-left: 120px;
+    margin-top: -228px;
+
+}
+
+#pais{
+	font-family: Montserrat-Bold, sans-serif;
+	font-size: 14px;
+	text-decoration: underline;
+	margin-top: -56px;
+    margin-left: 120px;
+}
+
+#profecion{
+	font-family: Montserrat-Regular, sans-serif;
+	font-size: 24px;
+	margin-left: 120px;
+}
+
+button{
+	background-color:#12F8CD; 
+	color:#000;
+	padding: 24px 60px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	font-family: Montserrat-Black, sans-serif; 
+	margin-top: 5px;
+	margin-left: 120px;
+	cursor: pointer;
+}
+
+button:hover{
+	background-color:#000;
+	color:#fff; 
+}
+
+.numeros{
+	margin-top: 100px;
+	
+}
+
+.numeros2{
+
+	margin-top: 100px;
+	font-family: Montserrat-Black, sans-serif; 
+	font-size: 36px;
+	list-style-type:none;
+	display: block;  
+	margin-left: 191px;
+    margin-top: -230px;
+    word-spacing: 93px;
+}
+
+#numeros3{
+	margin-top: 100px;
+	font-family: Montserrat-regular, sans-serif; 
+	font-size: 18px;
+	list-style-type:none;
+	display: block;  
+	margin-left: 136px;
+    margin-top: -38px;
+    word-spacing: 37px;
+
+}
+
+#cosos{
+	margin-top: 90px;
+	margin-top: 276px;
+    margin-left: 40px;
+}
+
+.texto p{
+	margin-top: 100px;
+	font-family: Montserrat-Regular, sans-serif; 
+	font-size: 14px;
+	list-style-type:none;
+	display: block;  
+	margin-left: 136px;
+    margin-top: -61px;
+    padding-right: 651px;
+    line-height: 2;
+
+}
+
+span {
+	font-family: Montserrat-Bold, sans-serif;
+	font-color:#12F8CD;  
+
+}
+
+.texto2 p{
+	margin-top: 100px;
+	font-family: Montserrat-Regular, sans-serif; 
+	font-size: 14px;
+	list-style-type:none;
+	display: block;  
+	margin-left: 136px;
+    margin-top: 31px;
+    padding-right: 651px;
+    line-height: 2;
+}
+
+@media screen and ( max-width: 800px){
+
+}
+
+.comillas{
+	float: right;
+	margin-top: -486px;
+	margin-right: 0px;
+	z-index: -2;
+}
+
+#quote p{
+	margin-top: 100px;
+	font-family: Montserrat-lightItalic, sans-serif; 
+	color: #9B9B9B;
+	font-size: 48px;
+	list-style-type:none;
+	display: block; 
+	float:right; 
+    margin-top: -931px;
+    padding-left: 994px;
+    line-height: 1;
+    z-index: 1;
+}
+
+
+#destacadas{
+	float:right;
+	margin-top: -355px; 
+}
+
+#ilustracionesdestacadas{
+	font-family: Montserrat-Bold, sans-serif; 
+	font-size: 24px;
+	margin-top: 138px;
+	margin-left: 262px;
+}
+
+#todaslasilustraciones{
+	float: left;
+}
+
+#textotodas{
+	font-family: Montserrat-Bold, sans-serif; 
+	font-size: 24px;
+	float:right; 
+	margin-top: -310px;
+    margin-right: 195px;
+}
+
+#cosita{
+	float:right;
+	margin-top: -343px; 
+}
+
+.fotocolorclau{
+
+}
+
+footer{
+	
+	background-image: url(../img/LOGOFOOTER.png);
+}
+
+
+.menufooter1{
+	font-size: 14px;
+    color: white;
+    z-index: 1000;
+    position: absolute;
+    margin-left: 100px
+    margin-top: 156px;
+    line-height: 1.8;
+}
+ 
+ .menufooter2{
+	font-size: 14px;
+    color: white;
+    z-index: 1001;
+    position: relative;
+    text-align: center;    
+    margin-right: 800px;
+    line-height: 1.8;
+
+}
+
+#logofooter{
+	float: right;
+	z-index: 1002;
+    position: absolute;
+    margin-top: -134px;
+    margin-left: 500px;
+}
+
+#iconosfooter{
+	float: right;
+    z-index: 1003;
+    position: absolute;
+    margin-left: 830px;
+    margin-top: -68px;
+}
+
+#footerfondo{
+	margin-top: -258px;
+}
+
+/* Resposive 
+
+@media screen and (max-width: 400px) {
+	h4{
+		font-size: 150%;
+	}
+
+	p{
+		font-size:120%;
+	}
+
+	header{
+		position: absolute;
+	}
+
+	#logo{
+		margin: 15px 0 20px 25px;
+	}
+
+	.hamburger{
+		cursor: pointer;
+		padding: 15px;
+		display: inline-block;
+	}
+
+	nav ul, nav:active ul{
+		display: none;
+		z-index: 1000;
+		position: absolute;
+		position: 20px
+		background:#000;
+		left:20px;
+		
+
+	}
+
+
+	nav:hover ul {
+		display: block;
+	}
+
+	nav li{
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+	}
+
+	.box{
+		display: hidden;
+	}
+
+	#breadcrumbs p{
+		
+		float: none;}
+	}
+	
+	#nombrepagina{
+		padding-top: 86px;
+	}
+
+	.fotoclau{
+		margin-top: 332px;
+	}
+
+	.numeros{
+		display: hidden;
+		background-image: url(img/mano/estrella.png);
+		margin-top: 227px;
+	}
+
+	#profecion{
+		font-size: 11px;
+		margin-top: -990px;
+
+	}
+}
+*/
+
+
+
+
+
+
+
+
+
+	
+
+
+
