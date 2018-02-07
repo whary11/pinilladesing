@@ -435,14 +435,11 @@ and (max-device-width : 1024px)  {
 		z-index: 0;
 		width: 85%;
 	}
+
 	#destacadas{
 		float:none;
 		margin-top:0px; 
-	}
-
-
-
-	
+	}	
 }
 
 
