@@ -1,19 +1,15 @@
 *{box-sizing: border-box;
 }
 
-
 img{
 	max-width: 100%
-
 }
-
-
 body{
 	font-family: Montserrat, sans-serif;
 	margin:auto;
 	width: 100%; 
 
-	background-image: url(../img/fotoclau.png);
+	/*background-image: url(../img/fotoclau.png);*/
 	background-repeat: no-repeat;
 	background-position: 670px 227px
 }
@@ -22,7 +18,6 @@ h4 {
 	font-size:64px;
 	font-family: Montserrat-BlackItalic, sans-serif;
 	margin: 0px;
-
 }
 
 a{
@@ -42,17 +37,12 @@ nav ul {
 	padding:0px;
 	list-style:none;
 	padding-left: 385px;
-
-
-
 }
 
 nav ul li{
 	
 	height: 80px;
 	float: left; 
-
-
 }
 
 nav ul li a {
@@ -99,7 +89,7 @@ nav ul li a {
 
 .box{
 	background-color: #000;
-	width: 1440px;
+	width: 100%;
 	height: 110px;
 	display: block;
 }
@@ -165,7 +155,8 @@ nav ul li a {
 }
 
 .fotoclau{
-	float: right; 
+	float: right;
+	margin-left: -90px; 
 }
 	
 
@@ -186,7 +177,7 @@ nav ul li a {
 
 #nombrepagina{
 	font-family: Montserrat-ExtraBoldItalic, sans-serif;
-	font-size: 36px;
+	font-size: 50px;
 	margin-left: 120px;
 	margin-top: 40px;
 
@@ -194,7 +185,7 @@ nav ul li a {
 
 .claudiamarti{
 	font-family: Montserrat-BlackItalic, sans-serif;
-	font-size: 64px;
+	font-size: 36px;
 	margin-left: 120px;
 	margin-top:30px;
 	display: block;
@@ -204,7 +195,7 @@ nav ul li a {
 
 #churumbelo{
 	margin-left: 120px;
-    margin-top: -228px;
+    margin-top: -220px;
 
 }
 
@@ -410,86 +401,19 @@ footer{
 }
 
 #footerfondo{
-	margin-top: -258px;
+	margin-top: -220px;
 }
 
-/* Resposive 
 
-@media screen and (max-width: 400px) {
-	h4{
-		font-size: 150%;
-	}
-
-	p{
-		font-size:120%;
-	}
-
-	header{
-		position: absolute;
-	}
-
-	#logo{
-		margin: 15px 0 20px 25px;
-	}
-
-	.hamburger{
-		cursor: pointer;
-		padding: 15px;
-		display: inline-block;
-	}
-
-	nav ul, nav:active ul{
-		display: none;
-		z-index: 1000;
-		position: absolute;
-		position: 20px
-		background:#000;
-		left:20px;
-		
-
-	}
-
-
-	nav:hover ul {
-		display: block;
-	}
-
-	nav li{
-		text-align: center;
-		width: 100%;
-		padding: 10px 0;
-	}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  {
 
 	.box{
-		display: hidden;
-	}
-
-	#breadcrumbs p{
-		
-		float: none;}
+		background: red;
 	}
 	
-	#nombrepagina{
-		padding-top: 86px;
-	}
-
-	.fotoclau{
-		margin-top: 332px;
-	}
-
-	.numeros{
-		display: hidden;
-		background-image: url(img/mano/estrella.png);
-		margin-top: 227px;
-	}
-
-	#profecion{
-		font-size: 11px;
-		margin-top: -990px;
-
-	}
 }
-*/
 
 
 
